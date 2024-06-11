@@ -12,6 +12,7 @@ const LandingPage = () => {
   return (
     <div>
         <h1>This is start page</h1>
+        
         <MainButton onClick={handleNext} textColor='#fff' text='Go to Selection'></MainButton>
     </div>
   )

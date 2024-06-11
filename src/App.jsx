@@ -3,7 +3,7 @@ import './App.css'
 import { useEffect } from 'react'
 import Selection from './components/Selection/Selection';
 import LandingPage from './components/LandigPage/LandingPage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 
 function App() {
 
