@@ -51,7 +51,7 @@ const Selection = () => {
                 <option value="pro">Pro</option>
             </select>
         </div>
-        {userData.email || userData.name || userData.level ? <MainButton onClick={handleSendData} textColor='#fff' text='Go to Selection'></MainButton> : ""}
+        <MainButton onClick={handleSendData} textColor='#fff' text='Go to Selection'></MainButton>
     </div>
   )
 }
